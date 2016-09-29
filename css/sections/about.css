@@ -1,0 +1,42 @@
+.about__left {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+
+.about__pic {
+    display: inline-block;
+    border: 5px solid #fff;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.about__pic-item {
+    max-width: 220px;
+    max-height: 220px;
+    display: block;
+}
+
+.about__right {
+    width: 56%;
+    float: right;
+}
+
+.text-block {
+    color: #646464;
+    font-size: 18px;
+    /*line-height: 26px;*/
+    line-height: 1.444;
+}
+
+.about__text {
+    height: 300px;
+    overflow: auto;
+    margin-bottom: 44px;
+}
+
+.text-block p {
+    margin: 0 0 5px; /*Why?*/
+}

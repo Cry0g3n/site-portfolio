@@ -5,22 +5,33 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="normalize-css/normalize.css">
+    <link rel="stylesheet" href="css/layout/adjustment.css">
+    <link rel="stylesheet" href="css/sections/header.css">
+    <link rel="stylesheet" href="css/sections/sidebar.css">
+    <link rel="stylesheet" href="css/sections/content.css">
+    <link rel="stylesheet" href="css/sections/about.css">
     <title>Обо мне</title>
 </head>
 <body>
-    <div class="wrapper">
-        <header>
-            <div class="container">
-                <div>
-                    <div>
-                        <div>
-                            <img src="img/content/02_about_03_mini.jpg" alt="Изображение пользователя" title="Изображение пользователя">
-                        </div>
-                        <div>Шемяков Андрей</div>
+<div class="wrapper">
+    <!-- header -->
+    <header class="header">
+        <div class="maincontent">
+        <div class="container clearfix">
+            <div class="header__left">
+                <!-- user -->
+                <div class="user">
+                    <div class="user__avatar">
+                        <img src="img/content/02_about_03_mini.jpg" alt="Изображение пользователя"
+                             title="Изображение пользователя" class="user__avatar-pic">
                     </div>
+                    <div class="user__name">Шемяков Андрей</div>
                 </div>
-                <div>
-                    <a href="#">Мои контакты</a>
+            </div>
+            <div class="header__right">
+                <div class="contacts">
+                    <a href="#" class="contacts__trigger">Мои контакты</a>
                     <ul>
                         <li></li>
                         <li></li>
@@ -28,62 +39,71 @@
                     </ul>
                 </div>
             </div>
-        </header>
-        <section>
-            <div class="container">
-                <aside>
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="#" title="Обо мне">Обо мне</a>
-                            </li>
-                            <li>
-                                <a href="#" title="Карьерный путь">Карьерный путь</a>
-                            </li>
-                            <li>
-                                <a href="#" title="Портфолио">Портфолио</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </aside>
-                <main>
-                    <div>
-                        <div>
-                            <div>
-                                <img src="img/content/02_about_03_big.jpg" alt="Фотография пользователя" title="Фотография пользователя">
-                            </div>
-                        </div>
-                        <div>
-                            <h1>Обо мне</h1>
-                            <div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, quaerat.</p>
-                                <p>Ad, aliquam animi autem dolore earum in officiis perspiciatis vitae!</p>
-                                <p>Eaque iusto laborum, nemo nulla praesentium quidem rerum sunt tenetur.</p>
-                            </div>
-                            <div>
-                                <a href="#" title="Скачать" download>Скачать резюме</a>
-                            </div>
-                        </div>
-                    </div>
-                </main>
-            </div>
-        </section>
-        <footer>
-            <div class="container">
-                <div>
-                    <div>
-                        &copy; Дизайн сайта был разработан в школе LoftSchool
-                    </div>
-                </div>
-                <div>
-                    <ul>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
+        </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <aside class="sidebar">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item nav__item_active">
+                            <a href="#" title="Обо мне" class="nav__link">
+                                <span>Обо мне</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" title="Карьерный путь" class="nav__link">
+                                <span>Карьерный путь</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" title="Портфолио" class="nav__link">
+                                <span>Портфолио</span>
+                            </a>
+                        </li>
                     </ul>
+                </nav>
+            </aside>
+            <main class="stuff">
+                <div class="about clearfix">
+                    <div class="about__left">
+                        <div class="about__pic">
+                            <img src="img/content/02_about_03.jpg" class="about__pic-item" alt="Фотография пользователя"
+                                 title="Фотография пользователя">
+                        </div>
+                    </div>
+                    <div class="about__right">
+                        <h1>Обо мне</h1>
+                        <div class="about__text text-block">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, quaerat.</p>
+                            <p>Ad, aliquam animi autem dolore earum in officiis perspiciatis vitae!</p>
+                            <p>Eaque iusto laborum, nemo nulla praesentium quidem rerum sunt tenetur.</p>
+                        </div>
+                        <div>
+                            <a href="#" title="Скачать" download>Скачать резюме</a>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div>
+                <div>
+                    &copy; Дизайн сайта был разработан в школе LoftSchool
                 </div>
             </div>
-        </footer>
-    </div>
+            <div>
+                <ul>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
