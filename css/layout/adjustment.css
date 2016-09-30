@@ -60,9 +60,11 @@ h6 {
 
 .clearfix:after, .clearfix:before {
     content: "";
-    display: table;
-}
-
-.clearfix:after {
+    /*display: table;*/
+    display: block;
     clear: both;
 }
+
+/*.clearfix:after {*/
+    /*clear: both;*/
+/*}*/

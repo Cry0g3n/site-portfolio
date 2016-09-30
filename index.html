@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/sections/sidebar.css">
     <link rel="stylesheet" href="css/sections/content.css">
     <link rel="stylesheet" href="css/sections/about.css">
+    <link rel="stylesheet" href="css/sections/footer.css">
     <title>Обо мне</title>
 </head>
 <body>
@@ -18,28 +19,28 @@
     <!-- header -->
     <header class="header">
         <div class="maincontent">
-        <div class="container clearfix">
-            <div class="header__left">
-                <!-- user -->
-                <div class="user">
-                    <div class="user__avatar">
-                        <img src="img/content/02_about_03_mini.jpg" alt="Изображение пользователя"
-                             title="Изображение пользователя" class="user__avatar-pic">
+            <div class="container clearfix">
+                <div class="header__left">
+                    <!-- user -->
+                    <div class="user">
+                        <div class="user__avatar">
+                            <img src="img/content/02_about_03_mini.jpg" alt="Изображение пользователя"
+                                 title="Изображение пользователя" class="user__avatar-pic">
+                        </div>
+                        <div class="user__name">Шемяков Андрей</div>
                     </div>
-                    <div class="user__name">Шемяков Андрей</div>
+                </div>
+                <div class="header__right">
+                    <div class="contacts">
+                        <a href="#" class="contacts__trigger">Мои контакты</a>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="header__right">
-                <div class="contacts">
-                    <a href="#" class="contacts__trigger">Мои контакты</a>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         </div>
     </header>
     <section>
@@ -80,30 +81,40 @@
                             <p>Ad, aliquam animi autem dolore earum in officiis perspiciatis vitae!</p>
                             <p>Eaque iusto laborum, nemo nulla praesentium quidem rerum sunt tenetur.</p>
                         </div>
-                        <div>
-                            <a href="#" title="Скачать" download>Скачать резюме</a>
+                        <div class="about__download">
+                            <a href="#" title="Скачать" class="about__download-link" download>
+                                <span>Скачать резюме</span>
+                            </a>
                         </div>
                     </div>
                 </div>
             </main>
         </div>
     </section>
-    <footer>
-        <div class="container">
-            <div>
-                <div>
-                    &copy; Дизайн сайта был разработан в школе LoftSchool
-                </div>
+</div>
+<footer class="footer">
+    <div class="container clearfix">
+        <div class="footer_left">
+            <div class="copyright">
+                &copy; Дизайн сайта был разработан в школе LoftSchool
             </div>
-            <div>
-                <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+        </div>
+        <div class="footer__right">
+            <div class="socials">
+                <ul class="socials__list">
+                    <li class="socials__item">
+                        <a href="#" class="socials__link socials__link_fb"></a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="#" class="socials__link socials__link_vk"></a>
+                    </li>
+                    <li class="socials__item">
+                        <a href="#" class="socials__link socials__link_tw"></a>
+                    </li>
                 </ul>
             </div>
         </div>
-    </footer>
-</div>
+    </div>
+</footer>
 </body>
 </html>
