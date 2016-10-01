@@ -9,8 +9,6 @@
     border: 5px solid #fff;
     overflow: hidden;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
 }
 
 .about__pic-item {
@@ -27,7 +25,6 @@
 .text-block {
     color: #646464;
     font-size: 18px;
-    /*line-height: 26px;*/
     line-height: 1.444;
 }
 
@@ -38,7 +35,7 @@
 }
 
 .text-block p {
-    margin: 0 0 5px; /*Why?*/
+    margin: 0 0 5px;
 }
 
 .about__download {
@@ -46,21 +43,14 @@
 }
 
 .about__download-link {
-    /*padding: 9px 12px;*/
+    padding: 14px 15px 13px 15px;
     border: 2px solid #e85f61;
     color: #e85f61;
     text-decoration: none;
     font-size: 14px;
     display: inline-block;
     border-radius: 20px;
-    /*-webkit-border-radius: 40px;*/
-    /*-moz-border-radius: 40px;*/
-    /*font-family: 'fira_sansbold';*/
 }
-
-/*.about__download-link-icon {*/
-    /*margin-right: 5px;*/
-/*}*/
 
 .about__download-link:hover {
     color: #fff;

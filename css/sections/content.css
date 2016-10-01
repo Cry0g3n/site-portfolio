@@ -1,14 +1,11 @@
-.stuff {
+.base-info {
     width: 73%;
     float: right;
 }
 
 .content-title {
-    /*font-family: 'fira_sansmedium';*/
     font-size: 35px;
     color: #414141;
-    /*line-height: 38px;*/
     line-height: 1.286;
-    /*margin-bottom: 16px;*/
     font-weight: normal;
 }

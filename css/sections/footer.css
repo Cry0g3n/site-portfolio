@@ -4,11 +4,8 @@
 
 .copyright {
     font-size: 14px;
-    /*line-height: 16px;*/
     line-height: 2.857;
     color: #9c9c9c;
-    /*position: absolute;*/
-    /*left: 0;*/
     top: 18px;
     text-align: right;
     display: inline-block;
@@ -23,7 +20,7 @@
     width: 32px;
     height: 31px;
     display: block;
-    background-image: url('/img/icon/socials.png');
+    background-image: url("/img/icon/socials.png");
     background-repeat: no-repeat;
 }
 

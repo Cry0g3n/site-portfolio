@@ -2,10 +2,7 @@ html,
 body {
     width: 100%;
     height: 100%;
-    /*font-family: 'fira_sansregular'; !*TODO: How?*/
-    /*-webkit-font-smoothing: antialiased;*/
     background: #f6f6f6;
-    /*line-height: 1.42; !*TODO: Why?*/
 }
 
 .wrapper {
@@ -30,7 +27,6 @@ footer {
 }
 
 .maincontent {
-    /*padding-bottom: 50px; !*TODO: Why?*!*/
 }
 
 .container {
@@ -60,11 +56,10 @@ h6 {
 
 .clearfix:after, .clearfix:before {
     content: "";
-    /*display: table;*/
     display: block;
     clear: both;
 }
 
-/*.clearfix:after {*/
-    /*clear: both;*/
-/*}*/
+
+
+

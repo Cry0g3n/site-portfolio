@@ -5,7 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="normalize-css/normalize.css">
+    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/layout/adjustment.css">
     <link rel="stylesheet" href="css/sections/header.css">
     <link rel="stylesheet" href="css/sections/sidebar.css">
@@ -25,7 +26,7 @@
                     <div class="user">
                         <div class="user__avatar">
                             <img src="img/content/02_about_03_mini.jpg" alt="Изображение пользователя"
-                                 title="Изображение пользователя" class="user__avatar-pic">
+                                 title="Изображение пользователя" class="user__avatar-image">
                         </div>
                         <div class="user__name">Шемяков Андрей</div>
                     </div>
@@ -50,23 +51,26 @@
                     <ul class="nav__list">
                         <li class="nav__item nav__item_active">
                             <a href="#" title="Обо мне" class="nav__link">
+                                <i class="fa fa-user-secret"></i>
                                 <span>Обо мне</span>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="#" title="Карьерный путь" class="nav__link">
+                                <i class="fa fa-rocket"></i>
                                 <span>Карьерный путь</span>
                             </a>
                         </li>
                         <li class="nav__item">
                             <a href="#" title="Портфолио" class="nav__link">
+                                <i class="fa fa-briefcase"></i>
                                 <span>Портфолио</span>
                             </a>
                         </li>
                     </ul>
                 </nav>
             </aside>
-            <main class="stuff">
+            <main class="base-info">
                 <div class="about clearfix">
                     <div class="about__left">
                         <div class="about__pic">
@@ -75,7 +79,7 @@
                         </div>
                     </div>
                     <div class="about__right">
-                        <h1>Обо мне</h1>
+                        <h1 class="content-title">Обо мне</h1>
                         <div class="about__text text-block">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, quaerat.</p>
                             <p>Ad, aliquam animi autem dolore earum in officiis perspiciatis vitae!</p>
@@ -83,6 +87,7 @@
                         </div>
                         <div class="about__download">
                             <a href="#" title="Скачать" class="about__download-link" download>
+                                <i class="fa fa-download"></i>
                                 <span>Скачать резюме</span>
                             </a>
                         </div>
