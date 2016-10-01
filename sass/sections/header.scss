@@ -4,28 +4,53 @@ $header_background: #fff;
 .header {
   background-color: $header_background;
   margin-bottom: 25px;
+  text-align: center;
 }
 
-.header__left, .header__right {
-  width: 50%;
-  float: left;
-  //display: inline-block;
-}
-
-.header__right:before {
-  content: "";
+.vam:before {
+  content: '';
   display: inline-block;
   width: 0;
   height: 100%;
   vertical-align: middle;
 }
 
+.header__left, .header__right {
+  width: 50%;
+  //float: left;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header__right:before {
+  content: "";
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.header_ext {
+  //vertical-align: middle;
+  //display: inline-block;
+  ////margin: 10px 0;
+  //font-size: 0;
+  //width: 100%;
+}
+
+.aligner {
+  text-align: center;
+}
+
 .header__right {
   text-align: right;
 }
 
+.header__left {
+  text-align: left;
+}
+
 .user {
-  margin-top: 10px;
+  font-size: 18px;
 }
 
 .user__avatar {
@@ -44,10 +69,6 @@ $header_background: #fff;
 
 .user__avatar-image {
   display: block; //TODO: Why?
-}
-
-.user {
-  margin-top: 10px;
 }
 
 .contacts {

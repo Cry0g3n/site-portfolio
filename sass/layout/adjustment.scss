@@ -33,7 +33,11 @@ footer {
 }
 
 .maincontent {
-  /*padding-bottom: 50px; !*TODO: Why?*!*/
+  vertical-align: middle;
+  display: inline-block;
+  font-size: 0;
+  margin: 10px 0;
+  //text-align: center;
 }
 
 .container {
