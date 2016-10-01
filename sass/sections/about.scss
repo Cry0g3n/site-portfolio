@@ -1,3 +1,7 @@
+$red_color: #e85f61;
+$about_text_color: #646464;
+$white_color: #fff;
+
 .about__left {
   float: left;
   width: 40%;
@@ -23,7 +27,7 @@
 }
 
 .text-block {
-  color: #646464;
+  color: $about_text_color;
   font-size: 18px;
   /*line-height: 26px;*/
   line-height: 1.444;
@@ -35,8 +39,10 @@
   margin-bottom: 44px;
 }
 
-.text-block p {
-  margin: 0 0 5px; /*Why?*/
+.text-block {
+  p {
+    //margin: 0 0 5px; /*Why?*/
+  }
 }
 
 .about__download {
@@ -46,20 +52,21 @@
 .about__download-link {
   /*padding: 9px 12px;*/
   padding: 14px 15px 13px 15px;
-  border: 2px solid #e85f61;
-  color: #e85f61;
+  border: 2px solid $red_color;
+  color: $red_color;
   text-decoration: none;
   font-size: 14px;
   display: inline-block;
-  border-radius: 20px;
+  border-radius: 40px;
   /*font-family: 'fira_sansbold';*/
+
+  &:hover {
+    color: $white_color;
+    background: $red_color;
+    transition: .2s;
+  }
 }
 
 /*.about__download-link-icon {*/
 /*margin-right: 5px;*/
 /*}*/
-
-.about__download-link:hover {
-  color: #fff;
-  background: #e85f61;
-}

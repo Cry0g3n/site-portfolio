@@ -1,12 +1,15 @@
+$footer_background_color: #414141;
+$copyright_color: #9c9c9c;
+
 .footer {
-  background: #414141;
+  background: $footer_background_color;
 }
 
 .copyright {
   font-size: 14px;
   /*line-height: 16px;*/
   line-height: 2.857;
-  color: #9c9c9c;
+  color: $copyright_color;
   /*position: absolute;*/
   /*left: 0;*/
   top: 18px;

@@ -1,11 +1,15 @@
+$blue_color: #32c3e3;
+$header_background: #fff;
+
 .header {
-  background-color: #fff;
+  background-color: $header_background;
   margin-bottom: 25px;
 }
 
 .header__left, .header__right {
   width: 50%;
   float: left;
+  //display: inline-block;
 }
 
 .header__right:before {
@@ -34,11 +38,12 @@
 .user__name {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 20px;
 }
 
+.user__avatar + .user__name {margin-left: 20px;}
+
 .user__avatar-image {
-  display: block; /*TODO: Why?*/
+  display: block; //TODO: Why?
 }
 
 .user {
@@ -54,9 +59,10 @@
 
 .contacts__trigger {
   text-decoration: none;
-  border-bottom: 1px dashed #32c3e5;
+  border-bottom: 1px dashed $blue_color;
   font-size: 18px;
   /*line-height: 28px;*/
   line-height: 1.556;
-  color: #33c1e3;
+  color: $blue_color;
 }
+
