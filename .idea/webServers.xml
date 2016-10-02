@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a888daf1-7847-4a32-a9f1-0eaf432bbbe1" name="ftp://vh20.timeweb.ru" url="http://vh20.timeweb.ru">
+        <fileTransfer host="vh20.timeweb.ru" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

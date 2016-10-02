@@ -1,0 +1,46 @@
+.career__left {
+  width: 40%;
+  float: left;
+}
+
+.career__right {
+  width: 56%;
+  float: right;
+}
+
+.career__pic {
+  border-radius: 10px;
+  overflow: hidden;
+  height: 220px;
+  //background: url('../img/content/03_career_03.jpg') no-repeat center center;
+}
+
+.career__item:hover .career__block {
+  background: $blue_color;
+}
+
+.career__item:hover * {
+  color: #fff;
+}
+
+.career__title {
+  font-size: 21px;
+  font-family: 'FiraSans-Regular';
+  color: #919191;
+  margin-bottom: 5px;
+}
+
+.career__occupation, .career__date {
+  font-size: 18px;
+  font-family: 'FiraSans-Light';
+}
+
+.career__year {
+  //position: absolute;
+  //right: 100%;
+  //font-size: 14px;
+  //top: 50%;
+  //margin-top: -8px;
+  //margin-right: 34px;
+  color: #7b7b7b;
+}
