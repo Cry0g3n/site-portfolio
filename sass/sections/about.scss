@@ -29,19 +29,19 @@ $white_color: #fff;
 .text-block {
   color: $about_text_color;
   font-size: 18px;
-  /*line-height: 26px;*/
   line-height: 1.444;
 }
 
 .about__text {
-  height: 300px;
+  height: 340px;
   overflow: auto;
   margin-bottom: 44px;
 }
 
 .text-block {
   p {
-    //margin: 0 0 5px; /*Why?*/
+    margin: 0 0 5px;
+    font-family: 'FiraSans-Light';
   }
 }
 
@@ -50,15 +50,14 @@ $white_color: #fff;
 }
 
 .about__download-link {
-  /*padding: 9px 12px;*/
-  padding: 14px 15px 13px 15px;
+  padding: 9px 12px;
   border: 2px solid $red_color;
   color: $red_color;
   text-decoration: none;
   font-size: 14px;
   display: inline-block;
   border-radius: 40px;
-  /*font-family: 'fira_sansbold';*/
+  font-family: 'FiraSans-Bold';
 
   &:hover {
     color: $white_color;
@@ -67,6 +66,6 @@ $white_color: #fff;
   }
 }
 
-/*.about__download-link-icon {*/
-/*margin-right: 5px;*/
-/*}*/
+.about__download-link-icon{
+  margin-right: 5px;
+}

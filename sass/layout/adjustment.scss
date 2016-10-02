@@ -1,12 +1,8 @@
-$body_background_color: #f6f6f6;
-$footer_background_color: #414141;
-
 html,
 body {
   width: 100%;
   height: 100%;
   /*font-family: 'fira_sansregular'; !*TODO: How?*/
-  /*-webkit-font-smoothing: antialiased;*/
   background: $body_background_color;
   /*line-height: 1.42; !*TODO: Why?*/
 }
@@ -25,19 +21,20 @@ body {
 }
 
 footer {
-  background: $footer_background_color;
   height: 50px;
   margin-top: -50px;
   position: relative;
   min-width: 960px;
 }
 
-.maincontent {
+.maincontent { //TODO: Подумать над названием
   vertical-align: middle;
   display: inline-block;
   font-size: 0;
+}
+
+.margin { //TODO: Подумать над названием
   margin: 10px 0;
-  //text-align: center;
 }
 
 .container {
@@ -67,7 +64,10 @@ h6 {
 
 .clearfix:after, .clearfix:before {
   content: "";
-  /*display: table;*/
   display: block;
   clear: both;
+}
+
+a img {
+  border: none;
 }

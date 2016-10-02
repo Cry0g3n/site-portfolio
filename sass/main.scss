@@ -1,0 +1,16 @@
+// colors
+$blue_color: #32c3e3;
+$header_background: #fff;
+$footer_background_color: #414141;
+$copyright_color: #9c9c9c;
+$body_background_color: #f6f6f6;
+
+@import "layout/fonts";
+@import "layout/adjustment";
+
+@import "sections/about";
+@import "sections/content";
+@import "sections/footer";
+@import "sections/header";
+@import "sections/sidebar";
+@import "sections/career";
