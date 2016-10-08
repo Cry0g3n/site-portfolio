@@ -11,16 +11,58 @@
 .career__pic {
   border-radius: 10px;
   overflow: hidden;
+  width: 220px;
   height: 220px;
   background: url('../img/content/03_career_03.jpg') no-repeat center center;
 }
 
-.career__item:hover .career__block {
-  background: $blue_color;
+.career__item {
+  text-align: right;
+  font-size: 0;
+  margin-bottom: 20px;
+
+  &:hover {
+    .career__block {
+      background: $blue_color;
+    }
+  }
+
+  &:first-child {
+    .career__block:before {
+      display: none;
+    }
+  }
+
+  &:last-child {
+    .career__block:after {
+      display: none;
+    }
+  }
 }
 
-.career__item:hover * {
-  color: #fff;
+.career__item:hover {
+  * {
+    color: #fff;
+  }
+  .career__year {
+    color: #33c1e3;
+    font-weight: bold;
+    &:after {
+      border-color: #94e0f2;
+    }
+  }
+}
+
+.career__block {
+  width: 380px;
+  display: inline-block;
+  position: relative;
+  background: $header_background;
+  border-radius: 9px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 .career__title {
@@ -36,11 +78,49 @@
 }
 
 .career__year {
-  //position: absolute;
-  //right: 100%;
-  //font-size: 14px;
-  //top: 50%;
-  //margin-top: -8px;
-  //margin-right: 34px;
+  position: absolute;
+  right: 100%;
+  font-size: 14px;
+  top: 50%;
+  margin-top: -8px;
+  margin-right: 34px;
   color: #7b7b7b;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: $blue_color;
+    border: 5px solid $body_background_color;
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    z-index: 1;
+    margin-top: -10px;
+    border-radius: 50%;
+  }
 }
+
+//TODO: Разобраться
+.career__block:after,
+.career__block:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  background: #dddddd;
+  left: -20px;
+}
+
+.career__block:before {
+  top: 0;
+  bottom: 50%;
+}
+
+.career__block:after {
+  bottom: -22px;
+  top: 50%;
+}
+
+/////////////////

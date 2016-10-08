@@ -2,9 +2,10 @@ html,
 body {
   width: 100%;
   height: 100%;
-  /*font-family: 'fira_sansregular'; !*TODO: How?*/
+  font-family: 'FiraSans-Regular';
   background: $body_background_color;
-  /*line-height: 1.42; !*TODO: Why?*/
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased
 }
 
 .wrapper {
@@ -31,6 +32,8 @@ footer {
   vertical-align: middle;
   display: inline-block;
   font-size: 0;
+  height: 100%;
+  //padding-bottom: 50px;
 }
 
 .margin { //TODO: Подумать над названием
@@ -41,6 +44,7 @@ footer {
   width: 960px;
   margin: 0 auto;
   max-width: 940px;
+  height: 100%;
 }
 
 ul {

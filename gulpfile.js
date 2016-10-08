@@ -9,7 +9,7 @@ var sourcemaps = require('gulp-sourcemaps');
 gulp.task('sass', function () {
     gulp.src('./sass/**/main.scss')
     // gulp.src('./sass/**/*.scss')
-        .pipe(sourcemaps.init())
+        .pipe(sourcemaps.init('/'))
         .pipe(sass().on('error', sass.logError))
         .pipe(stripCssComments())
         .pipe(cssbeautify())

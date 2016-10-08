@@ -11,13 +11,14 @@
   top: 18px;
   text-align: left;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .footer__left, .footer__right {
   width: 50%;
   display: inline-block;
   vertical-align: middle;
-  //float: left;
+  height: 100%;
 }
 
 .footer__left {
@@ -29,7 +30,10 @@
 }
 
 .socials {
-  font-size: 14px;
+  //font-size: 14px;
+  //height: 100%;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .socials__list {
@@ -37,7 +41,7 @@
 }
 
 .socials__link {
-  width: 32px;
+  width: 31px;
   height: 30px;
   display: block;
 }
@@ -60,4 +64,5 @@
 
 .socials__item {
   display: inline-block;
+  margin-left: 5px;
 }
