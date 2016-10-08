@@ -63,7 +63,7 @@
 .contacts {
   vertical-align: middle;
   font-family: 'FiraSans-Bold';
-  //display: inline-block;
+  display: inline-block;
 }
 
 .contacts__trigger {
@@ -73,5 +73,10 @@
   /*line-height: 28px;*/
   line-height: 1.556;
   color: $blue_color;
+
+  &:hover {
+    color: $red_color;
+    border-color: $red_color;
+  }
 }
 

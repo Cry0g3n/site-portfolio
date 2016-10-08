@@ -4,8 +4,11 @@ $header_background: #fff;
 $footer_background_color: #414141;
 $copyright_color: #9c9c9c;
 $body_background_color: #f6f6f6;
+$red_color: #e85f61;
 
+@import "../bower_components/normalize-css/normalize.css";
 @import "layout/fonts";
+//@import "../bower_components/components-font-awesome/scss/font-awesome";
 @import "layout/adjustment";
 
 @import "sections/about";
@@ -14,3 +17,4 @@ $body_background_color: #f6f6f6;
 @import "sections/header";
 @import "sections/sidebar";
 @import "sections/career";
+@import "sections/portfolio";
