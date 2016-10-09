@@ -1,0 +1,47 @@
+@media screen and (max-width: 992px) {
+  .container {
+    box-sizing: border-box;
+    width: 768px;
+    padding: 0 20px;
+  }
+
+  .sidebar, .base-info {
+    width: 100%;
+    float: none;
+  }
+
+  .sidebar {
+    margin-bottom: 40px;
+  }
+
+  .nav__list {
+    text-align: left;
+  }
+
+  .nav__item {
+    display: inline-block;
+    padding-right: 25px;
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  .nav__link {
+    border: none;
+    padding: 0;
+  }
+
+  .about__left {
+    width: 35%;
+  }
+
+  .about__right {
+    width: 65%;
+  }
+
+  .about__pic-item {
+    width: 170px;
+    height: 170px;
+  }
+}
