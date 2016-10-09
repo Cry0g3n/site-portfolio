@@ -15,6 +15,7 @@
   overflow: hidden;
   margin-left: 12px;
   margin-bottom: 12px;
+  vertical-align: top;
 }
 
 .portfolio__link {
@@ -31,6 +32,8 @@
 .portfolio__desc {
   background: $header_background;
   padding: 20px;
+  overflow-wrap: break-word;
+  //hyphens: auto;
 }
 
 .portfolio__desc-title {

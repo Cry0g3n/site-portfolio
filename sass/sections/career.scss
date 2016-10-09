@@ -34,6 +34,7 @@
   }
 
   &:last-child {
+    margin-bottom: 0;
     .career__block:after {
       display: none;
     }
@@ -68,7 +69,7 @@
 .career__title {
   font-size: 21px;
   font-family: 'FiraSans-Regular';
-  color: #919191;
+  color: #5A5E62;
   margin-bottom: 5px;
 }
 
