@@ -1,154 +1,32 @@
 <!doctype html>
-<html lang="ru">
+<html lang="ru-RU">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/main.css">
     <title>Обо мне</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<div class="wrapper">
-    <!-- header -->
-    <header class="header vam">
-        <div class="maincontent margin">
-            <div class="container clearfix">
-
-                <div class="header__left">
-                    <!-- user -->
-                    <div class="user">
-                        <div class="user__avatar">
-                            <img src="img/content/02_about_03_mini.jpg" alt="Изображение пользователя"
-                                 title="Изображение пользователя" class="user__avatar-image" width="60px" height="60px">
-                        </div>
-                        <div class="user__name">Шемяков Андрей</div>
-                    </div>
-                </div>
-                <div class="header__right">
-                    <div class="contacts">
-                        <a href="#" class="contacts__trigger">
-                            <i class="fa fa-phone contacts__trigger-icon" aria-hidden="true"></i>
-                            <span class="contacts__trigger-title">Мои контакты</span>
-                        </a>
-                        <div class="contacts__dropdown">
-                            <div class="contacts__dropdown-triangle"></div>
-                            <ul class="contacts__dropdown-list">
-                                <li class="contacts__dropdown-item">
-                                    <a href="mailto:andrey.shemiakov@gmail.com" class="contacts__dropdown-link">
-                                        <i class="contacts__dropdown-icon fa fa-envelope"></i>
-                                        <span class="contacts__dropdown-text">andrey.shemiakov@gmail.com</span>
-                                    </a>
-                                </li>
-                                <li class="contacts__dropdown-item">
-                                    <a href="tel:+79108171613" class="contacts__dropdown-link">
-                                        <i class="contacts__dropdown-icon fa fa-phone"></i>
-                                        <span class="contacts__dropdown-text">+7 910 817 16 13</span>
-                                    </a>
-                                </li>
-                                <li class="contacts__dropdown-item">
-                                    <a href="callto:d10sh3s" class="contacts__dropdown-link">
-                                        <i class="contacts__dropdown-icon fa fa-skype"></i>
-                                        <span class="contacts__dropdown-text">d10sh3s</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+<div class="wrapper wrapper_auth">
+    <div class="auth">
+        <div class="auth__top">
+            <div class="auth__avatar" style="background-image: url('img/content/02_about_03_big.jpg')"></div>
+            <div class="auth__name">
+                <span>Шемяков Андрей</span>
             </div>
         </div>
-    </header>
-    <section class="content">
-        <div class="container clearfix">
-            <aside class="sidebar">
-                <nav class="nav">
-                    <ul class="nav__list">
-                        <li class="nav__item nav__item_active">
-                            <a href="#" title="Обо мне" class="nav__link nav__link-active">
-                                <i class="fa fa-user-secret nav__link-icon"></i>
-                                <span class="nav__link-text">Обо мне</span>
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="pages/career.html" title="Карьерный путь" class="nav__link">
-                                <i class="fa fa-rocket nav__link-icon"></i>
-                                <span class="nav__link-text">Карьерный путь</span>
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="pages/portfolio.html" title="Портфолио" class="nav__link">
-                                <i class="fa fa-briefcase nav__link-icon"></i>
-                                <span class="nav__link-text">Портфолио</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </aside>
-            <main class="base-info">
-                <div class="about clearfix">
-                    <div class="about__left">
-                        <div class="about__pic">
-                            <img src="img/content/02_about_03.jpg" class="about__pic-item" alt="Фотография пользователя"
-                                 title="Фотография пользователя" width="220px" height="220px">
-                        </div>
-                    </div>
-                    <div class="about__right">
-                        <h1 class="content-title">Обо мне</h1>
-                        <div class="about__text text-block">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, quaerat.</p>
-                            <p>Ad, aliquam animi autem dolore earum in officiis perspiciatis vitae!</p>
-                            <p>Eaque iusto laborum, nemo nulla praesentium quidem rerum sunt tenetur.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, quaerat.</p>
-                            <p>Ad, aliquam animi autem dolore earum in officiis perspiciatis vitae!</p>
-                            <p>Eaque iusto laborum, nemo nulla praesentium quidem rerum sunt tenetur.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, quaerat.</p>
-                            <p>Ad, aliquam animi autem dolore earum in officiis perspiciatis vitae!</p>
-                            <p>Eaque iusto laborum, nemo nulla praesentium quidem rerum sunt tenetur.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, quaerat.</p>
-                            <p>Ad, aliquam animi autem dolore earum in officiis perspiciatis vitae!</p>
-                            <p>Eaque iusto laborum, nemo nulla praesentium quidem rerum sunt tenetur.</p>
-                        </div>
-                        <div class="about__download">
-                            <a href="#" title="Скачать" class="about__download-link" download>
-                                <i class="fa fa-download about__download-link-icon"></i>
-                                <span>Скачать резюме</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </main>
-        </div>
-    </section>
-</div>
-<footer class="footer">
-    <div class="maincontent">
-        <div class="container clearfix">
-            <div class="footer__left vam">
-                <div class="copyright">
-                    &copy; Дизайн сайта был разработан в школе LoftSchool
-                </div>
-            </div>
-            <div class="footer__right vam">
-                <div class="socials">
-                    <ul class="socials__list">
-                        <li class="socials__item">
-                            <a href="https://www.facebook.com/andrey.shemyakov" target="_blank"
-                               class="socials__link socials_fb"></a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="https://vk.com/shemyakov.andrey" target="_blank"
-                               class="socials__link socials_vk"></a>
-                        </li>
-                        <li class="socials__item">
-                            <a href="#" target="_blank" class="socials__link socials_tw"></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <div class="auth__bottom">
+            <a href="pages/about.html" class="about__download-link white-link">
+                <span>Перейти на сайт</span>
+            </a>
         </div>
     </div>
-</footer>
+</div>
+
+<script>
+    window.onload = function () {
+        document.querySelector('.auth').classList.add('bounceIn');
+    };
+</script>
+
 </body>
 </html>

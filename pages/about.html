@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../bower_components/components-font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css">
     <title>Обо мне</title>
 </head>
 <body>
@@ -15,7 +16,6 @@
     <header class="header vam">
         <div class="maincontent margin">
             <div class="container clearfix">
-
                 <div class="header__left">
                     <!-- user -->
                     <div class="user">
@@ -65,8 +65,8 @@
             <aside class="sidebar">
                 <nav class="nav">
                     <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="about.html" title="Обо мне" class="nav__link">
+                        <li class="nav__item nav__item_active">
+                            <a href="#" title="Обо мне" class="nav__link nav__link-active">
                                 <i class="fa fa-user-secret nav__link-icon"></i>
                                 <span class="nav__link-text">Обо мне</span>
                             </a>
@@ -77,8 +77,8 @@
                                 <span class="nav__link-text">Карьерный путь</span>
                             </a>
                         </li>
-                        <li class="nav__item nav__item_active">
-                            <a href="#" title="Портфолио" class="nav__link nav__link-active">
+                        <li class="nav__item">
+                            <a href="portfolio.html" title="Портфолио" class="nav__link">
                                 <i class="fa fa-briefcase nav__link-icon"></i>
                                 <span class="nav__link-text">Портфолио</span>
                             </a>
@@ -87,95 +87,36 @@
                 </nav>
             </aside>
             <main class="base-info">
-                <div class="portfolio">
-                    <h5 class="content-title">Портфолио</h5>
-                    <ul class="portfolio__list">
-                        <li class="portfolio__item">
-                            <a href="#" class="portfolio__link">
-                                <div class="portfolio__pic" style="background-image: url('../img/content/04_portfolio_03.jpg')"></div>
-                                <div class="portfolio__desc">
-                                    <div class="portfolio__desc-title">
-                                        <span>Deals App</span>
-                                    </div>
-                                    <div class="portfolio__desc-text">
-                                        <span>Продажа одежды</span>
-                                    </div>
-                                    <div class="portfolio__desc-type">
-                                        <i class="fa fa-mobile-phone"></i>
-                                        <span>Приложения</span>
-                                    </div>
-                                </div>
+                <div class="about clearfix">
+                    <div class="about__left">
+                        <div class="about__pic">
+                            <img src="../img/content/02_about_03.jpg" class="about__pic-item" alt="Фотография пользователя"
+                                 title="Фотография пользователя" width="220px" height="220px">
+                        </div>
+                    </div>
+                    <div class="about__right">
+                        <h1 class="content-title">Обо мне</h1>
+                        <div class="about__text text-block">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, quaerat.</p>
+                            <p>Ad, aliquam animi autem dolore earum in officiis perspiciatis vitae!</p>
+                            <p>Eaque iusto laborum, nemo nulla praesentium quidem rerum sunt tenetur.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, quaerat.</p>
+                            <p>Ad, aliquam animi autem dolore earum in officiis perspiciatis vitae!</p>
+                            <p>Eaque iusto laborum, nemo nulla praesentium quidem rerum sunt tenetur.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, quaerat.</p>
+                            <p>Ad, aliquam animi autem dolore earum in officiis perspiciatis vitae!</p>
+                            <p>Eaque iusto laborum, nemo nulla praesentium quidem rerum sunt tenetur.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, quaerat.</p>
+                            <p>Ad, aliquam animi autem dolore earum in officiis perspiciatis vitae!</p>
+                            <p>Eaque iusto laborum, nemo nulla praesentium quidem rerum sunt tenetur.</p>
+                        </div>
+                        <div class="about__download">
+                            <a href="#" title="Скачать" class="about__download-link" download>
+                                <i class="fa fa-download about__download-link-icon"></i>
+                                <span>Скачать резюме</span>
                             </a>
-                        </li>
-                        <li class="portfolio__item">
-                            <a href="#" class="portfolio__link">
-                                <div class="portfolio__pic" style="background-image: url('../img/content/04_portfolio_05.jpg')"></div>
-                                <div class="portfolio__desc">
-                                    <div class="portfolio__desc-title">
-                                        <span>Dream-scapes</span>
-                                    </div>
-                                    <div class="portfolio__desc-text">
-                                        <span>Лагуна Люфтганза</span>
-                                    </div>
-                                    <div class="portfolio__desc-type">
-                                        <i class="fa fa-mobile-phone"></i>
-                                        <span>Лендинг</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="portfolio__item">
-                            <a href="#" class="portfolio__link">
-                                <div class="portfolio__pic" style="background-image: url('../img/content/04_portfolio_07.jpg')"></div>
-                                <div class="portfolio__desc">
-                                    <div class="portfolio__desc-title">
-                                        <span>Creative studio</span>
-                                    </div>
-                                    <div class="portfolio__desc-text">
-                                        <span>Танцевальная студия</span>
-                                    </div>
-                                    <div class="portfolio__desc-type">
-                                        <i class="fa fa-mobile-phone"></i>
-                                        <span>Корпоративный сайт</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="portfolio__item">
-                            <a href="#" class="portfolio__link">
-                                <div class="portfolio__pic" style="background: url('../img/content/04_portfolio_12.jpg')"></div>
-                                <div class="portfolio__desc">
-                                    <div class="portfolio__desc-title">
-                                        <span>Studio Frog</span>
-                                    </div>
-                                    <div class="portfolio__desc-text">
-                                        <span>Мебельный магазин</span>
-                                    </div>
-                                    <div class="portfolio__desc-type">
-                                        <i class="fa fa-mobile-phone"></i>
-                                        <span>Лендинг</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="portfolio__item">
-                            <a href="#" class="portfolio__link">
-                                <div class="portfolio__pic" style="background: url('../img/content/04_portfolio_13.jpg')"></div>
-                                <div class="portfolio__desc">
-                                    <div class="portfolio__desc-title">
-                                        <span>Carbonara</span>
-                                    </div>
-                                    <div class="portfolio__desc-text">
-                                        <span>Итальянский ресторан</span>
-                                    </div>
-                                    <div class="portfolio__desc-type">
-                                        <i class="fa fa-mobile-phone"></i>
-                                        <span>Лендинг</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </div>
             </main>
         </div>
@@ -209,5 +150,14 @@
         </div>
     </div>
 </footer>
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+<script>
+    (function ($) {
+        $(window).on("load", function () {
+            $(".about__text").mCustomScrollbar({theme: 'dark'});
+        });
+    })(jQuery);
+</script>
 </body>
 </html>

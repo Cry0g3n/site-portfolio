@@ -21,5 +21,8 @@
   "dependencies": {
     "normalize-css": "^4.2.0",
     "components-font-awesome": "^4.6.3"
+  },
+  "devDependencies": {
+    "malihu-custom-scrollbar-plugin": "^3.1.5"
   }
 }
