@@ -8,7 +8,7 @@ $red_color: #e85f61;
 
 @import "../bower_components/normalize-css/normalize.css";
 @import "layout/fonts";
-//@import "../bower_components/components-font-awesome/scss/font-awesome";
+@import "../bower_components/components-font-awesome/css/font-awesome.min.css";
 @import "layout/adjustment";
 
 @import "sections/about";
